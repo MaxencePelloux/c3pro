@@ -1,0 +1,14 @@
+*.ndpi
+*.svs
+*.tif*
+*.parquet
+*.h5ad
+*.npy
+*.pkl
+*.csv
+*.xlsx
+data/
+outputs/
+experiments/
+__pycache__/
+.pytest_cache/

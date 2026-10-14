@@ -7,6 +7,10 @@ nucleus, embeds each cell with a pathology foundation model and clusters the cel
 phenotypes. Slide-level phenotype proportions and cell graphs then feed diagnosis, prognosis and
 resectability models.
 
+Preprint: [An interpretable cell-centric representation of pancreatic ductal adenocarcinoma matches
+multiple-instance learning for clinical outcomes and leads to novel pathologist-driven histological
+biomarkers](https://doi.org/10.64898/2026.10.03.26364596), medRxiv, 2026.
+
 ## Requirements
 
 - Steps 01–02 need an NVIDIA GPU; steps 04 and 05 run k-means on the GPU (cupy / cuML).
@@ -76,5 +80,3 @@ their cluster numbers do not correspond.
 ## Licence
 
 MIT, see `LICENSE`.
-
-Preprint: link to be added.
